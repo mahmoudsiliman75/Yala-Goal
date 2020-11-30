@@ -1,10 +1,206 @@
 // START:: SASS VARIABLES
-$mainColor: #19568A;
-$secondaryColor: #444;
+$mainColor: #1983ca;
+$secondaryColor: #343A40;
 // END:: SASS VARIABLES
 
+// START:: SASS COMPONENTS
+@mixin boxSizing {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin transitioning ($t) {
+  -webkit-transition: all $t ease-in-out;
+  -moz-transition: all $t ease-in-out;
+  -o-transition: all $t ease-in-out;
+  transition: all $t ease-in-out;
+}
+
+@mixin scalling ($s) {
+  -webkit-transform: scale($s);
+  -moz-transform: scale($s);
+  -o-transform: scale($s);
+  transform: scale($s);
+}
+// END:: SASS COMPONENTS
+
 // START:: GLOBAL STYLES
-body {
-  font-family: 'Cairo', sans-serif;
+*{
+  @include boxSizing(); 
+  input:focus ,
+  button:focus {
+    outline: none;
+  }
+}
+
+html {
+  direction: rtl;
+  body {
+    font-family: 'Cairo', sans-serif;
+    overflow-x: hidden;
+  }
 }
 // END:: GLOBAL STYLES
+
+// START:: NAV BAR STYLES
+.navbar {
+  z-index: 1 !important;
+  padding: 0;
+  .navbar-nav {
+    padding: 0;
+    .nav-item {
+      margin: 0 3px;
+      &.active {
+        a {
+          border-bottom: 1px solid $mainColor;
+          color: $mainColor;
+        }
+      }
+      .nav-link {
+        color: #fff;
+        border-bottom: 1px solid transparent;
+        @include transitioning(0.4s);
+        &:hover {
+          border-bottom: 1px solid $mainColor;
+          color: $mainColor;
+        }
+      }
+      .dropdown-menu {
+        position: absolute;
+        top: 95%;
+        right: 15%;
+        width: 70%;
+        border-radius: 0;
+        padding: 20px;
+        a {
+          color: #fff;
+          text-align: right;
+          @include transitioning(0.4s);
+          &:hover {
+            background-color: transparent;
+            color: $mainColor;
+            @include transitioning(0.4s);
+          }
+        }
+      }
+    }
+  }
+  .navbar-social {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin: 0 4px;
+        .search {
+          background-color: transparent;
+          border: none;
+          font-size: 40px;
+          opacity: 1;
+          color: #fff;
+        }
+        a {
+          color: rgb(172, 172, 172);
+          opacity: 0.5;
+          @include transitioning(0.4s);
+          &.facebook:hover {
+            color: #0077ff;
+          }
+          &.twitter:hover {
+            color: #009dff;
+          }
+          &.youtube:hover {
+            color: rgb(238, 20, 20);
+          }
+          &.insta:hover {
+            color: #F7623F;
+          }
+          &:hover {
+            opacity: 1;
+            @include scalling(1.5);
+            @include transitioning(0.4s);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: NAV BAR STYLES 
+
+// START:: SEARCH AREA STYLES
+.search-area {
+  padding: 25px 0;
+  z-index: 999 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .close-search-area {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    @include transitioning(0.4s);
+    &:hover {
+      color: $mainColor;
+      @include transitioning(0.4s);
+    }
+  }
+  .nav-search {
+    .search-input {
+      font-size: 25px;
+      color: #888;
+      font-weight: 600;
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid $mainColor;
+      padding: 15px;
+      caret-color: $mainColor;
+      &::placeholder {
+        color: #888;
+      }
+    }
+    ul {
+      list-style: none;
+      li {
+        text-align: initial;
+        margin-bottom: 15px;
+        margin-right: 5px;
+        font-size: 18px;
+        &::before {
+          content: "\2022";
+          color: #fff;
+          font-weight: bold;
+          display: inline-block; 
+          width: 1em;
+          margin-left: 0;
+        }
+        a {
+          color: #fff;
+          @include transitioning(0.4s);
+          &:hover {
+            color: $mainColor;
+            text-decoration: none;
+            @include transitioning(0.4s);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: SEARCH AREA STYLES
+
+// START:: FOOTER STYLES
+// .footer {
+
+// }
+// END:: FOOTER STYLES
