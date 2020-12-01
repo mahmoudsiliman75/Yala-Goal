@@ -31,6 +31,7 @@
 
   <!-- START:: INCLUDING GOOGLE FONTS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap">
   <!-- END:: INCLUDING GOOGLE FONTS -->
 
   <title>Yalla Goal - يلا جول </title>
@@ -42,6 +43,7 @@
 
   <div class="container">
     <a class="navbar-brand mx-3" href="index.php">
+      <span> Yalla Goal  </span>
       <img src="imgs/logo.png" height="50px" alt="موقع يلا جول الرياضى">
     </a>
 

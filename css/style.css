@@ -5,8 +5,28 @@
 }
 
 * input:focus,
-* button:focus {
+* button:focus,
+* a:focus {
   outline: none;
+}
+
+* .custom-title {
+  text-align: right;
+  color: #1983ca;
+  font-weight: 600;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+* .custom-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  width: 8rem;
+  height: 2px;
+  background-color: #1983ca;
 }
 
 html {
@@ -14,13 +34,21 @@ html {
 }
 
 html body {
-  font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
   overflow-x: hidden;
 }
 
 .navbar {
-  z-index: 1 !important;
+  -webkit-box-shadow: 0 0 5px 3px #222;
+  -o-box-shadow: 0 0 5px 3px #222;
+  box-shadow: 0 0 5px 3px #222;
+  z-index: 999 !important;
   padding: 0;
+}
+
+.navbar .navbar-brand span {
+  font-family: 'Righteous', cursive;
+  font-size: 25px;
 }
 
 .navbar .navbar-nav {
@@ -110,7 +138,7 @@ html body {
 }
 
 .navbar .navbar-social ul li a.insta:hover {
-  color: #F7623F;
+  color: #f7623f;
 }
 
 .navbar .navbar-social ul li a:hover {
@@ -129,7 +157,7 @@ html body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.95);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,5 +243,213 @@ html body {
   text-decoration: none;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+.matches-box {
+  position: relative;
+  top: calc(0% + 62px);
+  left: 0;
+  width: 100%;
+  height: calc(90vh - 62px);
+  overflow: hidden;
+  line-height: 0;
+  background: #444 url("../imgs/playground.jpg");
+  background-size: cover;
+}
+
+.matches-box .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.matches-box .overlay .nav-tabs {
+  border-bottom: none;
+  position: relative;
+  top: 7%;
+  right: 35%;
+}
+
+.matches-box .overlay .nav-tabs .nav-item .nav-link {
+  padding: 17px;
+  border: none;
+}
+
+.matches-box .overlay .nav-tabs .nav-item .nav-link.active {
+  background-color: #1983ca;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+}
+
+.matches-box .overlay .nav-tabs .nav-item .nav-link.hover {
+  border: none;
+  border-color: transparent;
+}
+
+.matches-box .overlay .tab-content .tab-pane .empty-tag-content {
+  position: relative;
+  margin-top: 2.7%;
+  width: 100%;
+  background-color: #343a40;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.matches-box .overlay .tab-content .tab-pane .empty-tag-content h3 {
+  color: #1983ca;
+}
+
+.matches-box .overlay #matches-cards-slider,
+.matches-box .overlay #live-matches-slider {
+  position: absolute;
+  top: 15%;
+  left: 0;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card,
+.matches-box .overlay #live-matches-slider .match-card {
+  min-height: 130px;
+  padding: 15px;
+  background-color: #343a40;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card a,
+.matches-box .overlay #live-matches-slider .match-card a {
+  text-align: center;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card a img,
+.matches-box .overlay #live-matches-slider .match-card a img {
+  display: inline-block;
+  width: 35px !important;
+  height: auto;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card p,
+.matches-box .overlay #live-matches-slider .match-card p {
+  margin-top: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card p.competition-name,
+.matches-box .overlay #live-matches-slider .match-card p.competition-name {
+  color: #1983ca;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card p.match-result,
+.matches-box .overlay #live-matches-slider .match-card p.match-result {
+  font-size: 600;
+  padding: 5px 0;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card p.match-stat,
+.matches-box .overlay #live-matches-slider .match-card p.match-stat {
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card p.match-stat span,
+.matches-box .overlay #live-matches-slider .match-card p.match-stat span {
+  border: 1px solid #1983ca;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background-color: #212121;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card p.match-time,
+.matches-box .overlay #live-matches-slider .match-card p.match-time {
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.matches-box .overlay #matches-cards-slider .match-card p.match-time .live,
+.matches-box .overlay #live-matches-slider .match-card p.match-time .live {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color: #f04033;
+  -webkit-animation-name: live;
+          animation-name: live;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+@-webkit-keyframes live {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes live {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.matches-box .overlay #matches-cards-slider .match-card p.team-name,
+.matches-box .overlay #live-matches-slider .match-card p.team-name {
+  font-size: 12px;
+}
+
+.matches-box .overlay #matches-cards-slider .owl-nav button,
+.matches-box .overlay #live-matches-slider .owl-nav button {
+  background: #1983ca;
+  padding: 15px !important;
+  margin-top: 15px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 3px 3px #1983ca;
+  -o-box-shadow: 0 0 3px 3px #1983ca;
+  box-shadow: 0 0 3px 3px #1983ca;
+}
+
+.matches-box .overlay #matches-cards-slider .owl-nav button span,
+.matches-box .overlay #live-matches-slider .owl-nav button span {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.matches-box #curve {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 197px;
+}
+
+.matches-box .shape-fill {
+  fill: #fff;
 }
 /*# sourceMappingURL=style.css.map */

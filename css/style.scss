@@ -1,6 +1,6 @@
 // START:: SASS VARIABLES
 $mainColor: #1983ca;
-$secondaryColor: #343A40;
+$secondaryColor: #343a40;
 // END:: SASS VARIABLES
 
 // START:: SASS COMPONENTS
@@ -11,34 +11,59 @@ $secondaryColor: #343A40;
   box-sizing: border-box;
 }
 
-@mixin transitioning ($t) {
+@mixin transitioning($t) {
   -webkit-transition: all $t ease-in-out;
   -moz-transition: all $t ease-in-out;
   -o-transition: all $t ease-in-out;
   transition: all $t ease-in-out;
 }
 
-@mixin scalling ($s) {
+@mixin scalling($s) {
   -webkit-transform: scale($s);
   -moz-transform: scale($s);
   -o-transform: scale($s);
   transform: scale($s);
 }
+
+@mixin boxShadow($b1, $b2, $b3, $b4, $b5 ) {
+  -webkit-box-shadow: $b1 $b2 $b3 $b4 $b5;
+  -moz-box-shadow: $b1 $b2 $b3 $b4 $b5;
+  -o-box-shadow: $b1 $b2 $b3 $b4 $b5;
+  box-shadow: $b1 $b2 $b3 $b4 $b5;
+}
 // END:: SASS COMPONENTS
 
 // START:: GLOBAL STYLES
-*{
-  @include boxSizing(); 
-  input:focus ,
-  button:focus {
+* {
+  @include boxSizing();
+  input:focus,
+  button:focus,
+  a:focus {
     outline: none;
+  }
+  .custom-title {
+    text-align: right;
+    color: $mainColor;
+    font-weight: 600;
+    padding-bottom: 10px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      display: block;
+      width: 8rem;
+      height: 2px;
+      background-color: $mainColor;
+    }
   }
 }
 
 html {
   direction: rtl;
   body {
-    font-family: 'Cairo', sans-serif;
+    font-family: "Cairo", sans-serif;
     overflow-x: hidden;
   }
 }
@@ -46,8 +71,15 @@ html {
 
 // START:: NAV BAR STYLES
 .navbar {
-  z-index: 1 !important;
+  @include boxShadow( 0, 0, 5px, 3px, #222 );
+  z-index: 999 !important;
   padding: 0;
+  .navbar-brand {
+    span {
+      font-family: 'Righteous', cursive;
+      font-size: 25px;
+    }
+  }
   .navbar-nav {
     padding: 0;
     .nav-item {
@@ -116,7 +148,7 @@ html {
             color: rgb(238, 20, 20);
           }
           &.insta:hover {
-            color: #F7623F;
+            color: #f7623f;
           }
           &:hover {
             opacity: 1;
@@ -128,7 +160,7 @@ html {
     }
   }
 }
-// END:: NAV BAR STYLES 
+// END:: NAV BAR STYLES
 
 // START:: SEARCH AREA STYLES
 .search-area {
@@ -139,7 +171,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.95);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -180,7 +212,7 @@ html {
           content: "\2022";
           color: #fff;
           font-weight: bold;
-          display: inline-block; 
+          display: inline-block;
           width: 1em;
           margin-left: 0;
         }
@@ -198,6 +230,172 @@ html {
   }
 }
 // END:: SEARCH AREA STYLES
+
+// START:: MATCHES SECTION STYLES
+.matches-box {
+  position: relative;
+  top: calc(0% + 62px);
+  left: 0;
+  width: 100%;
+  height: calc(90vh - 62px);
+  overflow: hidden;
+  line-height: 0;
+  background: #444 url("../imgs/playground.jpg");
+  background-size: cover;
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    .nav-tabs {
+      border-bottom: none;
+      position: relative;
+      top: 7%;
+      right: 35%;
+      .nav-item {
+        .nav-link {
+          padding: 17px;
+          border: none;
+          &.active {
+            background-color: $mainColor;
+            color: #fff;
+            border: none;
+            border-radius: 0;
+          }
+          &.hover {
+            border: none;
+            border-color: transparent;
+          }
+        }
+      }
+    }
+    .tab-content {
+      .tab-pane {
+        .empty-tag-content {
+          position: relative;
+          margin-top: 2.7%;
+          width: 100%;
+          background-color: $secondaryColor;
+          height: 150px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          h3 {
+            color: $mainColor;
+          }
+        }
+      }
+    }
+    #matches-cards-slider,
+    #live-matches-slider {
+      position: absolute;
+      top: 15%;
+      left: 0;
+      .match-card {
+        min-height: 130px;
+        padding: 15px;
+        background-color: $secondaryColor;
+        color: #fff;
+        border: 1px solid #333;
+        a {
+          text-align: center;
+          img {
+            display: inline-block;
+            width: 35px !important;
+            height: auto;
+          }
+        }
+        p {
+          margin-top: 15px;
+          padding-bottom: 0;
+          margin-bottom: 0;
+          &.competition-name {
+            color: $mainColor;
+            font-size: 0.7rem;
+            font-weight: bold;
+          }
+          &.match-result {
+            font-size: 600;
+            padding: 5px 0;
+          }
+          &.match-stat {
+            padding: 5px 0;
+            font-size: 12px;
+            span {
+              border: 1px solid $mainColor;
+              padding: 1px 6px;
+              border-radius: 8px;
+              background-color: #212121;
+            }
+          }
+          &.match-time {
+            padding-top: 5px;
+            font-size: 12px;
+            .live {
+              margin: 0;
+              padding: 0;
+              font-size: 13px;
+              color: #f04033;
+              animation-name: live;
+              animation-duration: 1s;
+              animation-iteration-count: infinite;
+              @include transitioning(0.4s);
+              // START:: LIVE ICON ANIMATION
+              @keyframes live {
+                0% {
+                  opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                }
+              }
+              // END:: LIVE ICON ANIMATION
+            }
+          }
+          &.team-name {
+            font-size: 12px;
+          }
+        }
+      }
+      .owl-nav {
+        button {
+          background: $mainColor;
+          padding: 15px !important;
+          margin-top: 15px;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+          @include boxShadow( 0, 0, 3px, 3px, $mainColor);
+          span {
+            color: #fff;
+            font-size: 40px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+  #curve {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 197px;
+  }
+  .shape-fill {
+    fill: #fff;
+  }
+}
+// END::  MATCHES SECTION STYLES
+
+// START:: LATEST NEWS SECTION SRTYLES
+
+// END:: LATEST NEWS SECTION SRTYLES
 
 // START:: FOOTER STYLES
 // .footer {
