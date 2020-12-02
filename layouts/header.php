@@ -61,6 +61,12 @@
           <a class="nav-link" href="#">المباريات</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#">الاخبار</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">الفيديوهات</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             البطولات
           </a>

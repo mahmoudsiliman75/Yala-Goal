@@ -4,10 +4,12 @@ $(document).ready(function() {
 
   $("#open-search-area").on("click", function() {
     $("#search-area").fadeIn();
+    $('body').css('overflow' , 'hidden');
   });
 
   $("#close-search-area").on("click", function() {
     $("#search-area").fadeOut();
+    $("body").css('overflow' , 'visible');
   });
   // END:: SEARCH AREA CONTROLERS
 
@@ -39,26 +41,26 @@ $(document).ready(function() {
   // END:: HOME MATCHS SLIDER
 
   // START:: live MATCHS SLIDER
-  $("#live-matches-slider").owlCarousel({
+  $("#teams-slider").owlCarousel({
+    // center: true,
     rtl: true,
     loop: false,
     autoplay: false,
-    margin: 0,
+    margin: 30,
     nav: true,
-    items: 1,
     dots: false,
     responsiveClass: true,
     responsive: {
       0: {
-        items: 1,
+        items: 6,
         nav: true,
       },
       800: {
-        items: 1,
+        items: 6,
         nav: true,
       },
       1200: {
-        items: 1,
+        items: 8,
         nav: true,
       }
     }

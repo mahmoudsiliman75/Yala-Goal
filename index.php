@@ -123,9 +123,9 @@
 
 								<div class="col-4 justify-content-center text-center">
 									<a href="#">
-										<img src="imgs/teams/atliti.png" alt=" اتليتيكو مدريد">
+										<img src="imgs/teams/juventos.png" alt=" يوفينتوس ">
 									</a>
-									<p class="team-name text-center"> اتليتيكو مدريد </p>
+									<p class="team-name text-center">  يوفينتوس </p>
 								</div>
 
 							</div>
@@ -254,16 +254,317 @@
 </div>
 <!-- END:: HOME MATCHES TABLE -->
 
+<!-- START:: TEAMS SKIDER SECTION -->
+<div class="teams-section">
+	<div class="container d-flex justify-content-center">
+		<!-- START:: TEAMS SLIDER -->
+		<div id="teams-slider" class="owl-carousel owl-theme">
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/ahly.png" alt="النادى الاهلى">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/zamalek.png" alt=" الزمالك">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/city.png" alt="منشستر سيتي">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/liverpool.png" alt=" لبفربول">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/barca.png" alt=" برشلونة">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/real.png" alt=" ريال مدريد">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/arsenal.png" alt="ارسنال ">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/chelse.png" alt="تشيلسي ">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/juventos.png" alt=" يوفينتوس">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/paris.png" alt="باريس سان جير مان">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+			<!-- START:: TEAM CARD  -->
+			<div class="item team-card">
+				<a href="#"> 
+					<img src="imgs/teams/payern.png" alt="بايرن ميونيخ">
+				</a>
+			</div>
+			<!-- START:: TEAM CARD  -->
+
+		</div>
+		<!-- END:: TEAMS SLIDER -->
+	</div>
+</div>
+<!-- END:: TEAMS SLIDER SECTION -->
+
 <!-- START:: LATEST NEWS -->
 <div class="latest-news">
 	<div class="container">
 		<h2 class="custom-title"> اخر الاخبار </h2>
-		<div class="row">
+		<!-- START:: NEWS GRID -->
+		<div class="row justify-content-between mb-1">
+
+			<div class="col-12 col-lg-7">
+
+				<div class="row justify-content-between" style="height: 47.5%; margin-bottom: 1%;">
+					<div class="news-img-container col-12 col-lg-6">
+						<div class="news-overlay"> 
+							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						</div>
+						<img src="imgs/news/news1.jpg" alt="">
+					</div>
+
+					<div class="news-img-container col-12 col-lg-6">
+						<div class="news-overlay"> 
+							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						</div>
+						<img src="imgs/news/news2.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="row justify-content-between" style="height: 47.5%;">
+					<div class="news-img-container col-12 col-lg-6">
+						<div class="news-overlay"> 
+							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						</div>
+						<img src="imgs/news/news3.jpg" alt="">
+					</div>
+
+					<div class="news-img-container col-12 col-lg-6">
+						<div class="news-overlay"> 
+							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						</div>
+						<img src="imgs/news/news5.jpg" alt="">
+					</div>
+				</div>
+
+			</div>
+
+			<div class="news-img-container col-12 col-lg-5">
+				<div class="news-overlay"> 
+					<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+				</div>
+				<img src="imgs/news/news4.jpg" alt="">
+			</div>
 
 		</div>
+
+		<div class="row justify-content-between mb-1">
+
+			<div class="news-img-container col-12 col-lg-5">
+				<div class="news-overlay"> 
+					<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+				</div>
+				<img src="imgs/news/news3.jpg" alt="">
+			</div>
+
+			<div class="col-12 col-lg-7">
+
+				<div class="row justify-content-between" style="height: 47.5%; margin-bottom: 1%;">
+					<div class="news-img-container col-12 col-lg-6">
+						<div class="news-overlay"> 
+							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						</div>
+						<img src="imgs/news/news1.jpg" alt="">
+					</div>
+
+					<div class="news-img-container col-12 col-lg-6">
+						<div class="news-overlay"> 
+							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						</div>
+						<img src="imgs/news/news2.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="row justify-content-between" style="height: 47.5%;">
+					<div class="news-img-container col-12 col-lg-6">
+						<div class="news-overlay"> 
+							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						</div>
+						<img src="imgs/news/news4.jpg" alt="">
+					</div>
+
+					<div class="news-img-container col-12 col-lg-6">
+						<div class="news-overlay"> 
+							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						</div>
+						<img src="imgs/news/news5.jpg" alt="">
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- END:: NEWS GRID -->
 	</div>
 </div>
-<!-- END:: LATEST NEWS -->	
+<!-- END:: LATEST NEWS -->
+
+<!-- START:: LATEST VIDEOS -->
+<div class="latest-videos">
+	<div class="container">
+		<h2 class="custom-title"> اخر الفيديوهات </h2>
+		<!-- START:: VIDEOS GRID -->
+		<div class="row justify-content-center">
+			
+			<!-- START:: VIDEO CARD -->
+			<div class="card col-5 col-lg-3">
+				<div class="card-video-box">
+					<div class="card-video-overlay"> 
+						<a href="#"> <i class="las la-play-circle"></i> </a>
+						</div>
+					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+				</div>
+			</div>
+			<!-- START:: VIDEO CARD -->
+
+			<!-- START:: VIDEO CARD -->
+			<div class="card col-5 col-lg-3">
+				<div class="card-video-box">
+					<div class="card-video-overlay"> 
+						<a href="#"> <i class="las la-play-circle"></i> </a>
+						</div>
+					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+				</div>
+			</div>
+			<!-- START:: VIDEO CARD -->
+
+			<!-- START:: VIDEO CARD -->
+			<div class="card col-5 col-lg-3">
+				<div class="card-video-box">
+					<div class="card-video-overlay"> 
+						<a href="#"> <i class="las la-play-circle"></i> </a>
+						</div>
+					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+				</div>
+			</div>
+			<!-- START:: VIDEO CARD -->
+
+			<!-- START:: VIDEO CARD -->
+			<div class="card col-5 col-lg-3">
+				<div class="card-video-box">
+					<div class="card-video-overlay"> 
+						<a href="#"> <i class="las la-play-circle"></i> </a>
+						</div>
+					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+				</div>
+			</div>
+			<!-- START:: VIDEO CARD -->
+
+			<!-- START:: VIDEO CARD -->
+			<div class="card col-5 col-lg-3">
+				<div class="card-video-box">
+					<div class="card-video-overlay"> 
+						<a href="#"> <i class="las la-play-circle"></i> </a>
+						</div>
+					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+				</div>
+			</div>
+			<!-- START:: VIDEO CARD -->
+
+			<!-- START:: VIDEO CARD -->
+			<div class="card col-5 col-lg-3">
+				<div class="card-video-box">
+					<div class="card-video-overlay"> 
+						<a href="#"> <i class="las la-play-circle"></i> </a>
+						</div>
+					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+				</div>
+			</div>
+			<!-- START:: VIDEO CARD -->
+
+		</div>
+		<!-- END:: VIDEOS GRID -->
+	</div>
+</div>
+<!-- END:: LATEST VIDEOS -->
 
 <!-- END :: CONTENT -->
 
