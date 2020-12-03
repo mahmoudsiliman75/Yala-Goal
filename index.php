@@ -50,7 +50,7 @@
 							<div class="row">
 
 								<div class="col-4 justify-content-center text-center">
-									<a href="#"> 
+									<a href="team-details.php"> 
 										<img src="imgs/teams/ahly.png" alt="النادى الاهلى">
 									</a>
 									<p class="team-name text-center"> الاهلى </p>
@@ -64,7 +64,7 @@
 								</div>
 
 								<div class="col-4 justify-content-center text-center">
-									<a href="#">
+									<a href="team-details.php">
 										<img src="imgs/teams/zamalek.png" alt="نادى الزمالك">
 									</a>
 									<p class="team-name text-center"> الزمالك </p>
@@ -79,7 +79,7 @@
 							<div class="row">
 
 								<div class="col-4 justify-content-center text-center">
-									<a href="#"> 
+									<a href="team-details.php"> 
 										<img src="imgs/teams/liverpool.png" alt=" ليفربول">
 									</a>
 									<p class="team-name text-center"> ليفربول </p>
@@ -93,7 +93,7 @@
 								</div>
 
 								<div class="col-4 justify-content-center text-center">
-									<a href="#">
+									<a href="team-details.php">
 										<img src="imgs/teams/barca.png" alt="برشلونة">
 									</a>
 									<p class="team-name text-center"> برشلونة </p>
@@ -108,7 +108,7 @@
 							<div class="row">
 
 								<div class="col-4 justify-content-center text-center">
-									<a href="#"> 
+									<a href="team-details.php"> 
 										<img src="imgs/teams/real.png" alt=" ريال مدريد">
 									</a>
 									<p class="team-name text-center"> ريال مدريد </p>
@@ -122,7 +122,7 @@
 								</div>
 
 								<div class="col-4 justify-content-center text-center">
-									<a href="#">
+									<a href="team-details.php">
 										<img src="imgs/teams/juventos.png" alt=" يوفينتوس ">
 									</a>
 									<p class="team-name text-center">  يوفينتوس </p>
@@ -137,7 +137,7 @@
 							<div class="row">
 
 								<div class="col-4 justify-content-center text-center">
-									<a href="#"> 
+									<a href="team-details.php"> 
 										<img src="imgs/teams/ahly.png" alt="النادى الاهلى">
 									</a>
 									<p class="team-name text-center"> الاهلى </p>
@@ -151,7 +151,7 @@
 								</div>
 
 								<div class="col-4 justify-content-center text-center">
-									<a href="#">
+									<a href="team-details.php">
 										<img src="imgs/teams/zamalek.png" alt="نادى الزمالك">
 									</a>
 									<p class="team-name text-center"> الزمالك </p>
@@ -262,7 +262,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/ahly.png" alt="النادى الاهلى">
 				</a>
 			</div>
@@ -270,7 +270,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/zamalek.png" alt=" الزمالك">
 				</a>
 			</div>
@@ -278,7 +278,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/city.png" alt="منشستر سيتي">
 				</a>
 			</div>
@@ -286,7 +286,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/liverpool.png" alt=" لبفربول">
 				</a>
 			</div>
@@ -294,7 +294,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/barca.png" alt=" برشلونة">
 				</a>
 			</div>
@@ -302,7 +302,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/real.png" alt=" ريال مدريد">
 				</a>
 			</div>
@@ -310,7 +310,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/arsenal.png" alt="ارسنال ">
 				</a>
 			</div>
@@ -318,7 +318,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/chelse.png" alt="تشيلسي ">
 				</a>
 			</div>
@@ -326,7 +326,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/juventos.png" alt=" يوفينتوس">
 				</a>
 			</div>
@@ -334,7 +334,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/paris.png" alt="باريس سان جير مان">
 				</a>
 			</div>
@@ -342,7 +342,7 @@
 
 			<!-- START:: TEAM CARD  -->
 			<div class="item team-card">
-				<a href="#"> 
+				<a href="team-details.php"> 
 					<img src="imgs/teams/payern.png" alt="بايرن ميونيخ">
 				</a>
 			</div>

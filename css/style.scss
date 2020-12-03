@@ -524,8 +524,8 @@ html {
     .card-video-box {
       position: relative;
       padding: 0;
-      max-height: 125px;
-      min-height: 125px;
+      max-height: 180px;
+      min-height: 180px;
       .card-video-overlay {
         position: absolute;
         top: 0;
@@ -545,6 +545,7 @@ html {
           i {
             color: $mainColor;
             font-size: 70px;
+            @include textShadow(0, 0, 5px, $mainColor)
           }
         }
       }

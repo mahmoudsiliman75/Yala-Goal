@@ -604,8 +604,8 @@ html body::-webkit-scrollbar-thumb {
 .latest-videos .card .card-video-box {
   position: relative;
   padding: 0;
-  max-height: 125px;
-  min-height: 125px;
+  max-height: 180px;
+  min-height: 180px;
 }
 
 .latest-videos .card .card-video-box .card-video-overlay {
@@ -634,6 +634,10 @@ html body::-webkit-scrollbar-thumb {
 .latest-videos .card .card-video-box .card-video-overlay a i {
   color: #1983ca;
   font-size: 70px;
+  -webkit-text-shadow: 0 0 5px #1983ca;
+  -moz-text-shadow: 0 0 5px #1983ca;
+  -o-text-shadow: 0 0 5px #1983ca;
+  text-shadow: 0 0 5px #1983ca;
 }
 
 .latest-videos .card .card-body {

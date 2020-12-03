@@ -17,7 +17,7 @@ $(document).ready(function() {
   // START:: LIGHT BOX BLUGIN
   lightbox.option({
     'resizeDuration': 200,
-    'wrapAround': true
+    'wrapAround': true,
   });
   // END:: LIGHT BOX BLUGIN
 
