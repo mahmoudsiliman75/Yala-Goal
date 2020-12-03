@@ -18,13 +18,13 @@
       </div>
       <!-- END:: SIDE ADS -->
 
-      <!-- START:: ALBUM GRID -->
-      <div class="album-container justify-content-center text-center col-9 p-3">
+      <!-- START:: TEAM DETAIL SECTION -->
+      <div class="team-details-container justify-content-center text-center col-9 p-3">
         <div class="row">
           
         </div>
       </div>
-      <!-- END:: ALBUM GRID -->
+      <!-- END:: TEAM DETAIL SECTION -->
 
     </div>
   </div>

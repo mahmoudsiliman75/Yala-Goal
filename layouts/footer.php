@@ -4,9 +4,6 @@
       <div class="row justify-content-center">
         <div class="info text-center">
           <h5> يلا جول &copy; يتم تطويره وإدارته بواسطة <a href="https://www.technomasr.com/"> تكنو مصر </a> </h5>
-          <a href="https://www.technomasr.com/"> 
-            <img src="imgs/tm.png" width="80px" alt="شركة تكنو مصر للخدمات البرمجية"> 
-          </a>
         </div>
       </div>
     </div>

@@ -9,8 +9,8 @@
 
       <!-- START:: SIDE ADS -->
       <div class="side-add col-2 p-2 mt-2">
-        <img class="img-fluid d-block mb-2" src="imgs/ad.jpg">
-        <img class="img-fluid d-block" src="imgs/ad.jpg"> 
+        <img class="img-fluid d-inline-block w-100 mb-2" src="imgs/ad.jpg">
+        <img class="img-fluid d-inline-block w-100 mb-2" src="imgs/ad.jpg"> 
       </div>
       <!-- END:: SIDE ADS -->
 
@@ -208,8 +208,8 @@
 
       <!-- START:: SIDE ADS -->
       <div class="side-add col-2 p-2 mt-2" style="direction: ltr;">
-        <img class="img-fluid d-block mb-2" src="imgs/ad.jpg">
-        <img class="img-fluid d-block" src="imgs/ad.jpg"> 
+        <img class="img-fluid d-inline-block w-100 mb-2" src="imgs/ad.jpg">
+        <img class="img-fluid d-inline-block w-100 mb-2" src="imgs/ad.jpg"> 
       </div>
       <!-- END:: SIDE ADS -->
     </div>

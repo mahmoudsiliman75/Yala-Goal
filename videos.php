@@ -17,7 +17,7 @@
       <!-- START:: VIDEO CARDS -->
       <div class="videos-container justify-content-center text-center col-8 p-3">
         <div class="row">
-          <h2 class="custom-title"> أحدث الفيديوهات </h2>
+          <h2 class="custom-title"> عنوان الفيديو </h2>
           <!-- START:: VIDEO CARD -->
           <div class="card col-12 p-1 mb-5" style="height: 600px">
             <div class="card-body">

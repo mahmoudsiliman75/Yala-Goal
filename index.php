@@ -468,16 +468,16 @@
 			<div class="card col-5 col-lg-3">
 				<div class="card-video-box">
 					<div class="card-video-overlay"> 
-						<a href="#"> <i class="las la-play-circle"></i> </a>
+						<a href="vidios.php"> <i class="las la-play-circle"></i> </a>
 						</div>
 					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
 				</div>
 				<div class="card-body">
 					<p class="card-text">
-						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						<a href="videos.php"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
 					<p class="videos-page-dir">
-						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+						<a href="all-videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
@@ -487,16 +487,16 @@
 			<div class="card col-5 col-lg-3">
 				<div class="card-video-box">
 					<div class="card-video-overlay"> 
-						<a href="#"> <i class="las la-play-circle"></i> </a>
+						<a href="videos.php"> <i class="las la-play-circle"></i> </a>
 						</div>
 					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
 				</div>
 				<div class="card-body">
 					<p class="card-text">
-						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						<a href="videos.php"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
 					<p class="videos-page-dir">
-						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+						<a href="all-videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
@@ -506,16 +506,16 @@
 			<div class="card col-5 col-lg-3">
 				<div class="card-video-box">
 					<div class="card-video-overlay"> 
-						<a href="#"> <i class="las la-play-circle"></i> </a>
+						<a href="videos.php"> <i class="las la-play-circle"></i> </a>
 						</div>
 					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
 				</div>
 				<div class="card-body">
 					<p class="card-text">
-						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						<a href="videos.php"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
 					<p class="videos-page-dir">
-						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+						<a href="all-videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
@@ -525,16 +525,16 @@
 			<div class="card col-5 col-lg-3">
 				<div class="card-video-box">
 					<div class="card-video-overlay"> 
-						<a href="#"> <i class="las la-play-circle"></i> </a>
+						<a href="videos.php"> <i class="las la-play-circle"></i> </a>
 						</div>
 					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
 				</div>
 				<div class="card-body">
 					<p class="card-text">
-						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						<a href="videos.php"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
 					<p class="videos-page-dir">
-						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+						<a href="all-videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
@@ -544,16 +544,16 @@
 			<div class="card col-5 col-lg-3">
 				<div class="card-video-box">
 					<div class="card-video-overlay"> 
-						<a href="#"> <i class="las la-play-circle"></i> </a>
+						<a href="videos.php"> <i class="las la-play-circle"></i> </a>
 						</div>
 					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
 				</div>
 				<div class="card-body">
 					<p class="card-text">
-						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						<a href="videos.php"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
 					<p class="videos-page-dir">
-						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+						<a href="all-videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
@@ -563,16 +563,16 @@
 			<div class="card col-5 col-lg-3">
 				<div class="card-video-box">
 					<div class="card-video-overlay"> 
-						<a href="#"> <i class="las la-play-circle"></i> </a>
+						<a href="videos.php"> <i class="las la-play-circle"></i> </a>
 						</div>
 					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
 				</div>
 				<div class="card-body">
 					<p class="card-text">
-						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+						<a href="videos.php"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
 					<p class="videos-page-dir">
-						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+						<a href="all-videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
