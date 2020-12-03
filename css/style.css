@@ -715,6 +715,40 @@ html body::-webkit-scrollbar-thumb {
   text-decoration: none;
 }
 
+.gallery .gallery-container .card {
+  border-radius: 0;
+  padding: 0;
+}
+
+.gallery .gallery-container .card .card-gallery-box {
+  padding: 0;
+  border-radius: 0;
+  height: 170px;
+}
+
+.gallery .gallery-container .card .card-gallery-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery .gallery-container .card .card-body {
+  text-align: start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+
+.gallery .gallery-container .card .card-body .card-text {
+  color: #1983ca;
+  text-align: start;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.gallery .gallery-container .card .card-body .card-text a:hover {
+  text-decoration: none;
+}
+
 .footer {
   padding: 10px 0;
 }

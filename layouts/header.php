@@ -116,7 +116,9 @@
               </div>
           </div>
         </li>
-
+        <li class="nav-item">
+          <a class="nav-link" href="img-gallery.php">الصور</a>
+        </li>
       </ul>
     </div>
 
