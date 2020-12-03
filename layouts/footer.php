@@ -33,6 +33,10 @@
   <script src="js/mixitup.min.js"></script>
   <!-- END:: MIX IT UP SCRIPTS -->
 
+  <!-- START:: INCLUDING LIGHT BOX SCRIPTS -->
+  <script src="js/lightbox.min.js"></script>
+  <!-- END:: INCLUDING LIGHT BOX SCRIPTS -->
+
   <!-- START:: INCLUDING MAIN SCRIPT -->
   <script src="js/main.js"></script>
   <!-- END:: INCLUDING MAIN SCRIPT -->

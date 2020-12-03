@@ -72,6 +72,10 @@ html body::-webkit-scrollbar-thumb {
 .navbar .navbar-brand span {
   font-family: 'Righteous', cursive;
   font-size: 25px;
+  -webkit-text-shadow: 0 0 3px #fff;
+  -moz-text-shadow: 0 0 3px #fff;
+  -o-text-shadow: 0 0 3px #fff;
+  text-shadow: 0 0 3px #fff;
 }
 
 .navbar .navbar-nav {
@@ -85,6 +89,10 @@ html body::-webkit-scrollbar-thumb {
 .navbar .navbar-nav .nav-item.active a {
   border-bottom: 1px solid #1983ca;
   color: #1983ca;
+  -webkit-text-shadow: 0 0 3px #1983ca;
+  -moz-text-shadow: 0 0 3px #1983ca;
+  -o-text-shadow: 0 0 3px #1983ca;
+  text-shadow: 0 0 3px #1983ca;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {

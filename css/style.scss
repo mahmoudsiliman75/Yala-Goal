@@ -32,6 +32,13 @@ $sectionPadding: 40px 0;
   -o-box-shadow: $b1 $b2 $b3 $b4 $b5;
   box-shadow: $b1 $b2 $b3 $b4 $b5;
 }
+
+@mixin textShadow($ts1, $ts2, $ts3, $ts4 ) {
+  -webkit-text-shadow: $ts1 $ts2 $ts3 $ts4;
+  -moz-text-shadow: $ts1 $ts2 $ts3 $ts4;
+  -o-text-shadow: $ts1 $ts2 $ts3 $ts4;
+  text-shadow: $ts1 $ts2 $ts3 $ts4;
+}
 // END:: SASS COMPONENTS
 
 // START:: GLOBAL STYLES
@@ -95,6 +102,7 @@ html {
     span {
       font-family: 'Righteous', cursive;
       font-size: 25px;
+      @include textShadow(0, 0, 3px, #fff)
     }
   }
   .navbar-nav {
@@ -105,6 +113,7 @@ html {
         a {
           border-bottom: 1px solid $mainColor;
           color: $mainColor;
+          @include textShadow( 0, 0, 3px, $mainColor)
         }
       }
       .nav-link {

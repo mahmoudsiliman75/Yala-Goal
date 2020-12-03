@@ -14,6 +14,13 @@ $(document).ready(function() {
   });
   // END:: SEARCH AREA CONTROLERS
 
+  // START:: LIGHT BOX BLUGIN
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  });
+  // END:: LIGHT BOX BLUGIN
+
   // START:: HOME MATCHS SLIDER
   $("#matches-cards-slider").owlCarousel({
     rtl: true,
@@ -67,5 +74,6 @@ $(document).ready(function() {
     }
   });
   // END:: LIVE MATCHS SLIDER
+  
 
 });

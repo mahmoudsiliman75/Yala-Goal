@@ -25,6 +25,10 @@
   <link rel="stylesheet" href="css/line-awesome.min.css">
   <!-- END:: INCLUDING LINE AWESOME CSS -->
 
+  <!-- START:: INCLUDING LIGHT BOX CSS -->
+  <link rel=stylesheet href="css/lightbox.min.css">
+  <!-- END:: INCLUDING LIGHT BOX CSS -->
+
   <!-- START:: INCLUDING MAIN STYLES -->
   <link rel="stylesheet" href="css/style.css">
   <!-- END:: INCLUDING MAIN STYLES -->
