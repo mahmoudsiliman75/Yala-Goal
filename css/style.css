@@ -574,6 +574,8 @@ html body::-webkit-scrollbar-thumb {
 .latest-videos .card .card-video-box {
   position: relative;
   padding: 0;
+  max-height: 125px;
+  min-height: 125px;
 }
 
 .latest-videos .card .card-video-box .card-video-overlay {
@@ -604,7 +606,68 @@ html body::-webkit-scrollbar-thumb {
   font-size: 70px;
 }
 
+.latest-videos .card .card-body {
+  padding-bottom: 0;
+}
+
+.latest-videos .card .card-body .card-text {
+  text-align: start;
+}
+
+.latest-videos .card .card-body .card-text a:hover {
+  text-decoration: none;
+}
+
+.latest-videos .card .card-body .videos-page-dir {
+  text-align: center;
+  margin: 10px 0;
+  padding: 5px 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.latest-videos .card .card-body .videos-page-dir:hover i {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-right: 5px;
+}
+
+.latest-videos .card .card-body .videos-page-dir a:hover {
+  text-decoration: none;
+}
+
 .latest-videos img {
+  width: 100%;
+  height: 100%;
+}
+
+.videos .videos-container .side-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.videos .videos-container .card .card-body {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+
+.videos .videos-container .card .card-body .card-title {
+  color: #1983ca;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.videos .videos-container .card iframe {
   width: 100%;
   height: 100%;
 }

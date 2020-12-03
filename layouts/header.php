@@ -55,7 +55,7 @@
       <ul class="navbar-nav ml-auto">
 
         <li class="nav-item active">
-          <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.php">الرئيسية <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">المباريات</a>
@@ -64,7 +64,7 @@
           <a class="nav-link" href="#">الاخبار</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">الفيديوهات</a>
+          <a class="nav-link" href="videos.php">الفيديوهات</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

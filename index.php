@@ -364,14 +364,14 @@
 			<div class="col-12 col-lg-7">
 
 				<div class="row justify-content-between" style="height: 47.5%; margin-bottom: 1%;">
-					<div class="news-img-container col-12 col-lg-6">
+					<div class="news-img-container col-12 col-lg-6" style="max-height: 158px; min-height: 158px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
 						<img src="imgs/news/news1.jpg" alt="">
 					</div>
 
-					<div class="news-img-container col-12 col-lg-6">
+					<div class="news-img-container col-12 col-lg-6" style="max-height: 158px; min-height: 158px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
@@ -380,14 +380,14 @@
 				</div>
 
 				<div class="row justify-content-between" style="height: 47.5%;">
-					<div class="news-img-container col-12 col-lg-6">
+					<div class="news-img-container col-12 col-lg-6" style="max-height: 158px; min-height: 158px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
 						<img src="imgs/news/news3.jpg" alt="">
 					</div>
 
-					<div class="news-img-container col-12 col-lg-6">
+					<div class="news-img-container col-12 col-lg-6" style="max-height: 158px; min-height: 158px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
@@ -397,7 +397,7 @@
 
 			</div>
 
-			<div class="news-img-container col-12 col-lg-5">
+			<div class="news-img-container col-12 col-lg-5" style="max-height: 330px; min-height: 330px;">
 				<div class="news-overlay"> 
 					<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 				</div>
@@ -408,7 +408,7 @@
 
 		<div class="row justify-content-between mb-1">
 
-			<div class="news-img-container col-12 col-lg-5">
+			<div class="news-img-container col-12 col-lg-5" style="max-height: 330px; min-height: 330px;">
 				<div class="news-overlay"> 
 					<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 				</div>
@@ -418,14 +418,14 @@
 			<div class="col-12 col-lg-7">
 
 				<div class="row justify-content-between" style="height: 47.5%; margin-bottom: 1%;">
-					<div class="news-img-container col-12 col-lg-6">
+					<div class="news-img-container col-12 col-lg-6" style="max-height: 158px; min-height: 158px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
 						<img src="imgs/news/news1.jpg" alt="">
 					</div>
 
-					<div class="news-img-container col-12 col-lg-6">
+					<div class="news-img-container col-12 col-lg-6" style="max-height: 158px; min-height: 158px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
@@ -434,14 +434,14 @@
 				</div>
 
 				<div class="row justify-content-between" style="height: 47.5%;">
-					<div class="news-img-container col-12 col-lg-6">
+					<div class="news-img-container col-12 col-lg-6" style="max-height: 158px; min-height: 158px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
 						<img src="imgs/news/news4.jpg" alt="">
 					</div>
 
-					<div class="news-img-container col-12 col-lg-6">
+					<div class="news-img-container col-12 col-lg-6" style="max-height: 158px; min-height: 158px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
@@ -476,21 +476,8 @@
 					<p class="card-text">
 						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
-				</div>
-			</div>
-			<!-- START:: VIDEO CARD -->
-
-			<!-- START:: VIDEO CARD -->
-			<div class="card col-5 col-lg-3">
-				<div class="card-video-box">
-					<div class="card-video-overlay"> 
-						<a href="#"> <i class="las la-play-circle"></i> </a>
-						</div>
-					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
-				</div>
-				<div class="card-body">
-					<p class="card-text">
-						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					<p class="videos-page-dir">
+						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
@@ -508,21 +495,8 @@
 					<p class="card-text">
 						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
-				</div>
-			</div>
-			<!-- START:: VIDEO CARD -->
-
-			<!-- START:: VIDEO CARD -->
-			<div class="card col-5 col-lg-3">
-				<div class="card-video-box">
-					<div class="card-video-overlay"> 
-						<a href="#"> <i class="las la-play-circle"></i> </a>
-						</div>
-					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
-				</div>
-				<div class="card-body">
-					<p class="card-text">
-						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					<p class="videos-page-dir">
+						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
@@ -540,6 +514,9 @@
 					<p class="card-text">
 						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 					</p>
+					<p class="videos-page-dir">
+						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+					</p>
 				</div>
 			</div>
 			<!-- START:: VIDEO CARD -->
@@ -555,6 +532,47 @@
 				<div class="card-body">
 					<p class="card-text">
 						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+					<p class="videos-page-dir">
+						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+					</p>
+				</div>
+			</div>
+			<!-- START:: VIDEO CARD -->
+
+			<!-- START:: VIDEO CARD -->
+			<div class="card col-5 col-lg-3">
+				<div class="card-video-box">
+					<div class="card-video-overlay"> 
+						<a href="#"> <i class="las la-play-circle"></i> </a>
+						</div>
+					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+					<p class="videos-page-dir">
+						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
+					</p>
+				</div>
+			</div>
+			<!-- START:: VIDEO CARD -->
+
+			<!-- START:: VIDEO CARD -->
+			<div class="card col-5 col-lg-3">
+				<div class="card-video-box">
+					<div class="card-video-overlay"> 
+						<a href="#"> <i class="las la-play-circle"></i> </a>
+						</div>
+					<img src="imgs/news/news1.jpg" class="card-img-top" alt="">
+				</div>
+				<div class="card-body">
+					<p class="card-text">
+						<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
+					</p>
+					<p class="videos-page-dir">
+						<a href="videos.php"> كل الفيديوهات <i class="las la-caret-left"></i> </a>
 					</p>
 				</div>
 			</div>
