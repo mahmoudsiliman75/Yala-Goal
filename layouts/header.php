@@ -68,7 +68,7 @@
           <a class="nav-link" href="news.php">الاخبار</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="videos.php">الفيديوهات</a>
+          <a class="nav-link" href="all-videos.php">الفيديوهات</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
