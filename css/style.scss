@@ -42,6 +42,7 @@ $sectionPadding: 40px 0;
   a:focus {
     outline: none;
   }
+
   .custom-title {
     text-align: right;
     color: $mainColor;
@@ -59,6 +60,13 @@ $sectionPadding: 40px 0;
       height: 2px;
       background-color: $mainColor;
     }
+  }
+
+  #side-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 
@@ -111,10 +119,17 @@ html {
       .dropdown-menu {
         position: absolute;
         top: 95%;
-        right: 15%;
-        width: 70%;
+        right: 7%;
+        width: 85%;
         border-radius: 0;
         padding: 20px;
+        .sub-sec-one  {
+          padding-left: 90px;
+        } 
+        .sub-sec-tow {
+          border-right: 1px solid $mainColor;
+          padding-left: 90px
+        }
         a {
           color: #fff;
           text-align: right;
@@ -564,14 +579,7 @@ html {
 // START:: VIDEOS PAGE STYLES
 .videos {
   .videos-container {
-    .side-add {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
     .card {
-      border: 1px solid rgb(88 88 88 / 13%);
       .card-body {
         flex: 0 1 auto;
         .card-title {
@@ -589,6 +597,41 @@ html {
   }
 }
 // END:: VIDEOS PAGE STYLES
+
+// START:: NEWS PAGE STYLES
+.news {
+  .news-container {
+    .card {
+      border-radius: 0;
+      padding: 0;
+      .card-news-box {
+        padding: 0;
+        border-radius: 0;
+        height: 170px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .card-body {
+        text-align: start;
+        flex: 0 1 auto;
+        .card-text {
+          color: $mainColor;
+          text-align: start;
+          font-size: 15px;
+          font-weight: 600;
+          a {
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: NEWS PAGE STYLES
 
 // START:: FOOTER STYLES
 .footer {

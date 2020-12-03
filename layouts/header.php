@@ -61,7 +61,7 @@
           <a class="nav-link" href="#">المباريات</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">الاخبار</a>
+          <a class="nav-link" href="news.php">الاخبار</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="videos.php">الفيديوهات</a>
@@ -73,17 +73,45 @@
           <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
               <div class="row">
                 <div class="sub-sec-one col-12 col-md-6">
-                  <h4 class="text-right"> بطولات الأندية </h4>
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <h4 class="text-right custom-title"> بطولات الأندية </h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <a class="dropdown-item" href="#">الدورى المصرى  </a>
+                      <a class="dropdown-item" href="#">الدورى الإنجليزي  </a>
+                      <a class="dropdown-item" href="#">الدورى الاسبانى  </a>
+                      <a class="dropdown-item" href="#">الدورى الألمانى  </a>
+                      <a class="dropdown-item" href="#">الدورى الفرنسي  </a>
+                      <a class="dropdown-item" href="#">الدورى الإيطالى  </a>
+                    </div>
+
+                    <div class="col-6">
+                      <a class="dropdown-item" href="#">  كأس العالم للأندية </a>
+                      <a class="dropdown-item" href="#">دورى ابطال اوروبا </a>
+                      <a class="dropdown-item" href="#"> الدورى الأوروبي  </a>
+                      <a class="dropdown-item" href="#"> دورى ابطال افريقيا </a>
+                      <a class="dropdown-item" href="#">   كأس الكونفدرالية </a>
+                    </div>
+                  </div>
                 </div>
 
                 <div class="sub-sec-tow col-12 col-md-6">
-                  <h4 class="text-right"> بطولات المنتخبات </h4>
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <h4 class="text-right custom-title"> بطولات المنتخبات </h4>
+                  <div class="row">
+                    <div class="col-6">
+                      <a class="dropdown-item" href="#"> كأس العالم </a>
+                      <a class="dropdown-item" href="#"> كأس الأمم ألأفريقية  </a>
+                      <a class="dropdown-item" href="#"> كأس أمم اوروبا  </a>
+                      <a class="dropdown-item" href="#">كوبا امريكا  </a>
+                      <a class="dropdown-item" href="#">كاس أمم اسيا  </a>
+                    </div>
+
+                    <div class="col-6">
+                      <a class="dropdown-item" href="#">  تصفيات افريقيا لكأس العالم </a>
+                      <a class="dropdown-item" href="#">  تصفيات اوروبا لكأس العالم </a>
+                      <a class="dropdown-item" href="#">  تصفيات اسيا لكأس العالم </a>
+                      <a class="dropdown-item" href="#">  تصفيات امريكا الجنوبية لكأس العالم </a>
+                    </div>
+                  </div>
                 </div>
               </div>
           </div>

@@ -30,6 +30,19 @@
   background-color: #1983ca;
 }
 
+* #side-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
 html {
   direction: rtl;
 }
@@ -89,10 +102,19 @@ html body::-webkit-scrollbar-thumb {
 .navbar .navbar-nav .nav-item .dropdown-menu {
   position: absolute;
   top: 95%;
-  right: 15%;
-  width: 70%;
+  right: 7%;
+  width: 85%;
   border-radius: 0;
   padding: 20px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu .sub-sec-one {
+  padding-left: 90px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu .sub-sec-tow {
+  border-right: 1px solid #1983ca;
+  padding-left: 90px;
 }
 
 .navbar .navbar-nav .nav-item .dropdown-menu a {
@@ -641,19 +663,6 @@ html body::-webkit-scrollbar-thumb {
   height: 100%;
 }
 
-.videos .videos-container .side-add {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-
 .videos .videos-container .card .card-body {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
@@ -670,6 +679,40 @@ html body::-webkit-scrollbar-thumb {
 .videos .videos-container .card iframe {
   width: 100%;
   height: 100%;
+}
+
+.news .news-container .card {
+  border-radius: 0;
+  padding: 0;
+}
+
+.news .news-container .card .card-news-box {
+  padding: 0;
+  border-radius: 0;
+  height: 170px;
+}
+
+.news .news-container .card .card-news-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.news .news-container .card .card-body {
+  text-align: start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+
+.news .news-container .card .card-body .card-text {
+  color: #1983ca;
+  text-align: start;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.news .news-container .card .card-body .card-text a:hover {
+  text-decoration: none;
 }
 
 .footer {

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   // START:: SEARCH AREA CONTROLERS
   $("#search-area").css("display", "none");
 
@@ -66,4 +67,5 @@ $(document).ready(function() {
     }
   });
   // END:: LIVE MATCHS SLIDER
+
 });

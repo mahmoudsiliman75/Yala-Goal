@@ -17,7 +17,7 @@
       <!-- START:: VIDEO CARDS -->
       <div class="videos-container justify-content-center text-center col-8 p-3">
         <div class="row">
-
+          <h2 class="custom-title"> أحدث الفيديوهات </h2>
           <!-- START:: VIDEO CARD -->
           <div class="card col-12 p-1 mb-5" style="height: 600px">
             <div class="card-body">
@@ -49,7 +49,7 @@
 
         </div>
         <!-- START:: SHOW MORE BUTTON  -->
-        <button class="btn btn-primary"> المزيد من الفيديوهات  </button>
+        <button class="btn btn-primary"> المزيد من الفيديوهات <i class="las la-angle-double-down"></i> </button>
         <!-- END:: SHOW MORE BUTTON  -->
       </div>
       <!-- START:: VIDEO CARDS -->
