@@ -26,14 +26,14 @@ $sectionPadding: 40px 0;
   transform: scale($s);
 }
 
-@mixin boxShadow($b1, $b2, $b3, $b4, $b5 ) {
+@mixin boxShadow($b1, $b2, $b3, $b4, $b5) {
   -webkit-box-shadow: $b1 $b2 $b3 $b4 $b5;
   -moz-box-shadow: $b1 $b2 $b3 $b4 $b5;
   -o-box-shadow: $b1 $b2 $b3 $b4 $b5;
   box-shadow: $b1 $b2 $b3 $b4 $b5;
 }
 
-@mixin textShadow($ts1, $ts2, $ts3, $ts4 ) {
+@mixin textShadow($ts1, $ts2, $ts3, $ts4) {
   -webkit-text-shadow: $ts1 $ts2 $ts3 $ts4;
   -moz-text-shadow: $ts1 $ts2 $ts3 $ts4;
   -o-text-shadow: $ts1 $ts2 $ts3 $ts4;
@@ -95,14 +95,14 @@ html {
 
 // START:: NAV BAR STYLES
 .navbar {
-  @include boxShadow( 0, 0, 5px, 3px, #222 );
+  @include boxShadow(0, 0, 5px, 3px, #222);
   z-index: 999 !important;
   padding: 0;
   .navbar-brand {
     span {
-      font-family: 'Righteous', cursive;
+      font-family: "Righteous", cursive;
       font-size: 25px;
-      @include textShadow(0, 0, 3px, #fff)
+      @include textShadow(0, 0, 3px, #fff);
     }
   }
   .navbar-nav {
@@ -113,7 +113,7 @@ html {
         a {
           border-bottom: 1px solid $mainColor;
           color: $mainColor;
-          @include textShadow( 0, 0, 3px, $mainColor)
+          @include textShadow(0, 0, 3px, $mainColor);
         }
       }
       .nav-link {
@@ -132,12 +132,12 @@ html {
         width: 85%;
         border-radius: 0;
         padding: 20px;
-        .sub-sec-one  {
+        .sub-sec-one {
           padding-left: 90px;
-        } 
+        }
         .sub-sec-tow {
           border-right: 1px solid $mainColor;
-          padding-left: 90px
+          padding-left: 90px;
         }
         a {
           color: #fff;
@@ -287,7 +287,7 @@ html {
     .nav-tabs {
       border-bottom: none;
       position: relative;
-      top: 7%;
+      top: 30px;
       right: 35%;
       .nav-item {
         .nav-link {
@@ -326,7 +326,7 @@ html {
     #matches-cards-slider,
     #live-matches-slider {
       position: absolute;
-      top: 15%;
+      top: 63px;
       left: 0;
       .match-card {
         min-height: 130px;
@@ -406,7 +406,7 @@ html {
           width: 40px;
           height: 40px;
           text-align: center;
-          @include boxShadow( 0, 0, 3px, 3px, $mainColor);
+          @include boxShadow(0, 0, 3px, 3px, $mainColor);
           span {
             color: #fff;
             font-size: 40px;
@@ -430,7 +430,7 @@ html {
 // END::  MATCHES SECTION STYLES
 
 // START:: TEAMS SLIDER SECTION PSTYLES
-.teams-section{
+.teams-section {
   padding: $sectionPadding;
   #teams-slider {
     width: 70%;
@@ -451,7 +451,7 @@ html {
         width: 40px;
         height: 40px;
         text-align: center;
-        @include boxShadow( 0, 0, 3px, 3px, $mainColor);
+        @include boxShadow(0, 0, 3px, 3px, $mainColor);
         span {
           color: #fff;
           font-size: 40px;
@@ -485,7 +485,7 @@ html {
       color: #fff;
       padding: 15px;
       word-wrap: break-word;
-      a { 
+      a {
         color: inherit;
         font-size: 600;
       }
@@ -501,8 +501,8 @@ html {
   .latest-news {
     .news-img-container {
       &.col-lg-5 {
-        flex: 0 0 41.3%;
-        max-width: 41.3%;
+        flex: 0 0 41.1%;
+        max-width: 41.1%;
       }
       &.col-lg-6 {
         flex: 0 0 49.5%;
@@ -541,24 +541,24 @@ html {
         color: #fff;
         padding: 15px;
         word-wrap: break-word;
-        a { 
+        a {
           i {
             color: $mainColor;
             font-size: 70px;
-            @include textShadow(0, 0, 5px, $mainColor)
+            @include textShadow(0, 0, 5px, $mainColor);
           }
         }
       }
     }
     .card-body {
-      padding-bottom: 0; 
+      padding-bottom: 0;
       .card-text {
         text-align: start;
         a {
           &:hover {
             text-decoration: none;
           }
-        } 
+        }
       }
       .videos-page-dir {
         text-align: center;
@@ -635,11 +635,11 @@ html {
           color: #fff;
           padding: 15px;
           word-wrap: break-word;
-          a { 
+          a {
             i {
               color: $mainColor;
               font-size: 70px;
-              @include textShadow(0, 0, 5px, $mainColor)
+              @include textShadow(0, 0, 5px, $mainColor);
             }
           }
         }
@@ -651,7 +651,7 @@ html {
             &:hover {
               text-decoration: none;
             }
-          } 
+          }
         }
       }
     }
@@ -661,7 +661,7 @@ html {
     }
   }
 }
-// END:: ALL VIDEOS PAGE STYLES 
+// END:: ALL VIDEOS PAGE STYLES
 
 // START:: NEWS PAGE STYLES
 .news {
@@ -735,7 +735,202 @@ html {
 
 // START:: TEAM DETAILS PAGE STYLES
 .team-details {
-  
+  .team-details-container {
+    .box {
+      position: relative;
+      .tabs-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $secondaryColor;
+        width: 100%;
+        padding: 5px 10px;
+        .team-logo-container {
+          span {
+            font-size: 25px;
+            font-weight: 600;
+            color: #fff;
+            @include textShadow(0, 0, 3px, #fff)
+          }
+        }
+        .nav-pills{
+          align-items: center;
+          justify-content: flex-end;
+          padding-bottom: 0;
+          li {
+            a {
+              padding: 5px 0;
+              margin: 10px;
+              color: #fff;
+              border-radius: 0;
+              border-bottom: 2px solid transparent;
+              @include transitioning(0.4s);
+              &.active {
+                border: 0;
+                background-color: transparent;
+                border-bottom: 2px solid $mainColor;
+                color: $mainColor;
+                @include textShadow(0, 0, 3px, $mainColor);
+                font-weight: 600;
+              }
+              &:hover {
+                border-bottom: 2px solid $mainColor;
+                color: $mainColor;
+                @include transitioning(0.4s);
+              }
+            }
+          } 
+        }
+      }
+      .tab-content {
+        .tab-pane {
+          margin: 15px 0;
+          iframe {
+            width: 100% !important;
+            height: 100% !important;
+          }
+          p {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 8px;
+            span {
+              color: $mainColor;
+              font-weight: 600;
+              margin-left: 3px;
+            }
+            i {
+              font-size: 22px;
+              color: $mainColor;
+            }
+          }
+          h4 {
+            color: $mainColor;
+          }
+          .team-info {
+            h4 {
+              font-weight: 600;
+              margin-bottom: 10px;
+            }
+            p {
+              color: $secondaryColor;
+              word-wrap: break-word;
+              text-align: justify;
+              line-height: 1.8;
+            } 
+          }
+          .team-news {
+            position: relative;
+            min-height: 230px;
+            max-height: 230px;
+            .overlay {
+              padding: 10px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 0, 0, 0.5);
+              display: flex;
+              justify-content: flex-start;
+              align-items: flex-end;
+              a {
+                text-align: start;
+                color: #fff;
+                &:hover {
+                  color: #fff
+                }
+              }
+            }
+            img {
+              height: 230px !important;
+            }
+          }
+          .team-videos {
+            .card {
+              .card-title {
+                color: $mainColor;
+              }
+              iframe {
+                height: 100% !important;
+                width: 100% !important;
+              } 
+            }
+          }
+          .nav-pills {
+            li {
+              width: 50%;
+              a {
+                &.active {
+                  border-radius: 0;
+                  background-color: $mainColor;
+                }
+              }
+            }
+          }
+          .team-match-card {
+            background-color: #f1f1f1;
+            border-radius: 0;
+            .card-body {
+              h6 {
+                color: $mainColor;
+                font-weight: bold;
+              }
+              p {
+                color: $secondaryColor;
+                margin-bottom: 0;
+                font-size: 15px;
+              }
+              .status {
+                background-color: $mainColor;
+                color: #fff;
+                border-radius: 10px;
+                margin: 13px 0;
+                font-size: 15px;
+                padding: 5px 8px;
+              }
+              .date {
+                margin: 13px 0;
+                font-size: 15px;
+                color: #777;
+              }
+              .playground {
+                font-size: 15px;
+                color: #777;
+                i {
+                  color: $mainColor;
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+          .players-table {
+            thead {
+              tr {
+                border-bottom: none;
+                th {
+                  border-bottom: none;
+                }
+              }
+            }
+            tbody {
+              tr {
+                td {
+                  a {
+                    color: #444;
+                    text-decoration: none;
+                    &:hover {
+                      color: #444;
+                      text-decoration: none;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 // END:: TEAM DETAILS PAGE STYLES
 
@@ -744,7 +939,7 @@ html {
   padding: 10px 0;
   .info {
     h5 {
-      color: #fff; 
+      color: #fff;
       a {
         color: $mainColor;
         &:hover {
