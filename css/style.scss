@@ -166,6 +166,7 @@ html {
           font-size: 40px;
           opacity: 1;
           color: #fff;
+          @include textShadow(0, 0, 4px, #fff);
         }
         a {
           color: rgb(172, 172, 172);
@@ -933,6 +934,121 @@ html {
   }
 }
 // END:: TEAM DETAILS PAGE STYLES
+
+// START:: PLAYER DETAILS PAGE STYLES 
+.player-details {
+  padding: $sectionPadding;
+  h3 {
+    text-align: center;
+    color: $mainColor;
+    @include textShadow( 0, 0, 3px, $mainColor);
+    span {
+      font-size: 1.2rem;
+    }
+  }
+  .player-img {
+    .img-border {
+      display: inline-block;
+      // border: 1px solid #666;
+      @include boxShadow(0, 0, 5px, 2px, #555);
+      padding: 5px;
+      border-radius: 15px;
+      img {
+        max-width: 350px;
+        min-width: 350px;
+        max-height: 350px;
+        min-height: 350px;
+        border-radius: 15px;
+      }
+    }
+  }
+  .player-info {
+    text-align: center;
+    padding: 10px  15px;
+    border-radius: 10px;
+    @include boxShadow(0, 0, 5px, 2px, #666);
+    p {
+      color: #fff;
+      font-size: 18px;
+      color: #666;
+      span {
+        margin-left: 5px;
+        color: $mainColor;
+        @include textShadow( 0, 0, 3px, $mainColor);
+      }
+    }
+  }
+  .card {
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    &.play {
+      border: 1px solid #60cb60;
+      color: #60cb60;
+      @include boxShadow(0, 0, 5px, 2px, #60cb60);
+      .card-body {
+        h4 {
+          @include textShadow(0, 0, 3px, #60cb60);
+          margin: 10px 0;
+        }
+        p {
+          font-size: 25px;
+          margin-bottom: 0;
+          @include textShadow(0, 0, 3px, #60cb60);
+        }
+      }
+    }
+    &.goals {
+      border: 1px solid #c9c9c9;
+      color: #c9c9c9;
+      @include boxShadow(0, 0, 5px, 2px, #c9c9c9);
+      .card-body {
+        h4 {
+          @include textShadow(0, 0, 3px, #c9c9c9);
+          margin: 10px 0;
+        }
+        p {
+          font-size: 25px;
+          margin-bottom: 0;
+          @include textShadow(0, 0, 3px, #c9c9c9);
+        }
+      }
+    }
+    &.yellow-cards {
+      border: 1px solid #fff44b;
+      color: #fff44b;
+      @include boxShadow(0, 0, 5px, 2px, #fff44b);
+      .card-body {
+        h4 {
+          @include textShadow(0, 0, 3px, #fff44b);
+          margin: 10px 0;
+        }
+        p {
+          font-size: 25px;
+          margin-bottom: 0;
+          @include textShadow(0, 0, 3px, #fff44b);
+        }
+      }
+    }
+    &.red-cards {
+      border: 1px solid #e53d3d;
+      color: #e53d3d;
+      @include boxShadow(0, 0, 5px, 2px, #e53d3d);
+      .card-body {
+        h4 {
+          @include textShadow(0, 0, 3px, #e53d3d);
+          margin: 10px 0;
+        }
+        p {
+          font-size: 25px;
+          margin-bottom: 0;
+          @include textShadow(0, 0, 3px, #e53d3d);
+        }
+      }
+    }
+  }
+}
+// END:: PLAYER DETAILS PAGE STYLES 
 
 // START:: FOOTER STYLES
 .footer {

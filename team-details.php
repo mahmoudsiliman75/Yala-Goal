@@ -2,24 +2,20 @@
 <?php include('layouts/header.php') ?>
 <!-- END:: INCLUDING HEADER -->
 
-<!-- START:: TEAM DETAILS NAVIGATION -->
-
-<!-- END:: TEAM DETAILS NAVIGATION -->
-
 <!-- START:: CONTENT -->
 <div class="team-details">
   <div class="container">
     <div class="row">
 
       <!-- START:: SIDE ADS -->
-      <div class="side-add col-3 p-2 mt-2 d-none d-md-block">
+      <div class="side-add col-2 p-2 mt-2 d-none d-md-block">
         <img class="img-fluid d-inline-block mb-2" width="100%" src="imgs/ad.jpg"">
         <img class="img-fluid d-inline-block mb-2" width="100%" src="imgs/ad.jpg"> 
       </div>
       <!-- END:: SIDE ADS -->
 
       <!-- START:: TEAM DETAIL SECTION -->
-      <div class="team-details-container justify-content-center text-center col-12 col-md-9 p-3">
+      <div class="team-details-container justify-content-center text-center col-12 col-md-10 p-3">
         <div class="row">
 
           <div class="box col-12">
@@ -62,13 +58,13 @@
 
                 <div class="row p-3 mb-5 bg-dark m-0">
 
-                  <div class="col-6 text-right">
+                  <div class="col-12 col-sm-8 text-right mb-5">
                     <p> <span> البلد: </span> مصر </p>
                     <p> <span> تاريخ التاسيس: </span> 1907 </p>
                     <p> <span> المدير الفنى: </span> بيتسو موسيمانى </p>
                   </div>
 
-                  <div class="col-6 text-right">
+                  <div class="col-12 col-sm-4 text-right">
                     <h4> البطولات الحالية </h4>
                     <p> <i class="las la-trophy"></i> الدورى المصرى </p>
                     <p> <i class="las la-trophy"></i> دورى ابطال افريقيا </p>
@@ -817,7 +813,7 @@
                     <!-- START:: PLAYER DATA ROW -->
                     <tr>
                       <th scope="row">1</th>
-                      <td> <a href="#"> محمد الشناوى </a> </td>
+                      <td> <a href="player-details.php"> محمد الشناوى </a> </td>
                       <td>حارس مرمى</td>
                       <td>مصرى</td>
                     </tr>

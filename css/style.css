@@ -156,6 +156,10 @@ html body::-webkit-scrollbar-thumb {
   font-size: 40px;
   opacity: 1;
   color: #fff;
+  -webkit-text-shadow: 0 0 4px #fff;
+  -moz-text-shadow: 0 0 4px #fff;
+  -o-text-shadow: 0 0 4px #fff;
+  text-shadow: 0 0 4px #fff;
 }
 
 .navbar .navbar-social ul li a {
@@ -1042,6 +1046,170 @@ html body::-webkit-scrollbar-thumb {
 .team-details .team-details-container .box .tab-content .tab-pane .players-table tbody tr td a:hover {
   color: #444;
   text-decoration: none;
+}
+
+.player-details {
+  padding: 40px 0;
+}
+
+.player-details h3 {
+  text-align: center;
+  color: #1983ca;
+  -webkit-text-shadow: 0 0 3px #1983ca;
+  -moz-text-shadow: 0 0 3px #1983ca;
+  -o-text-shadow: 0 0 3px #1983ca;
+  text-shadow: 0 0 3px #1983ca;
+}
+
+.player-details h3 span {
+  font-size: 1.2rem;
+}
+
+.player-details .player-img .img-border {
+  display: inline-block;
+  -webkit-box-shadow: 0 0 5px 2px #555;
+  -o-box-shadow: 0 0 5px 2px #555;
+  box-shadow: 0 0 5px 2px #555;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.player-details .player-img .img-border img {
+  max-width: 350px;
+  min-width: 350px;
+  max-height: 350px;
+  min-height: 350px;
+  border-radius: 15px;
+}
+
+.player-details .player-info {
+  text-align: center;
+  padding: 10px  15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 2px #666;
+  -o-box-shadow: 0 0 5px 2px #666;
+  box-shadow: 0 0 5px 2px #666;
+}
+
+.player-details .player-info p {
+  color: #fff;
+  font-size: 18px;
+  color: #666;
+}
+
+.player-details .player-info p span {
+  margin-left: 5px;
+  color: #1983ca;
+  -webkit-text-shadow: 0 0 3px #1983ca;
+  -moz-text-shadow: 0 0 3px #1983ca;
+  -o-text-shadow: 0 0 3px #1983ca;
+  text-shadow: 0 0 3px #1983ca;
+}
+
+.player-details .card {
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.player-details .card.play {
+  border: 1px solid #60cb60;
+  color: #60cb60;
+  -webkit-box-shadow: 0 0 5px 2px #60cb60;
+  -o-box-shadow: 0 0 5px 2px #60cb60;
+  box-shadow: 0 0 5px 2px #60cb60;
+}
+
+.player-details .card.play .card-body h4 {
+  -webkit-text-shadow: 0 0 3px #60cb60;
+  -moz-text-shadow: 0 0 3px #60cb60;
+  -o-text-shadow: 0 0 3px #60cb60;
+  text-shadow: 0 0 3px #60cb60;
+  margin: 10px 0;
+}
+
+.player-details .card.play .card-body p {
+  font-size: 25px;
+  margin-bottom: 0;
+  -webkit-text-shadow: 0 0 3px #60cb60;
+  -moz-text-shadow: 0 0 3px #60cb60;
+  -o-text-shadow: 0 0 3px #60cb60;
+  text-shadow: 0 0 3px #60cb60;
+}
+
+.player-details .card.goals {
+  border: 1px solid #c9c9c9;
+  color: #c9c9c9;
+  -webkit-box-shadow: 0 0 5px 2px #c9c9c9;
+  -o-box-shadow: 0 0 5px 2px #c9c9c9;
+  box-shadow: 0 0 5px 2px #c9c9c9;
+}
+
+.player-details .card.goals .card-body h4 {
+  -webkit-text-shadow: 0 0 3px #c9c9c9;
+  -moz-text-shadow: 0 0 3px #c9c9c9;
+  -o-text-shadow: 0 0 3px #c9c9c9;
+  text-shadow: 0 0 3px #c9c9c9;
+  margin: 10px 0;
+}
+
+.player-details .card.goals .card-body p {
+  font-size: 25px;
+  margin-bottom: 0;
+  -webkit-text-shadow: 0 0 3px #c9c9c9;
+  -moz-text-shadow: 0 0 3px #c9c9c9;
+  -o-text-shadow: 0 0 3px #c9c9c9;
+  text-shadow: 0 0 3px #c9c9c9;
+}
+
+.player-details .card.yellow-cards {
+  border: 1px solid #fff44b;
+  color: #fff44b;
+  -webkit-box-shadow: 0 0 5px 2px #fff44b;
+  -o-box-shadow: 0 0 5px 2px #fff44b;
+  box-shadow: 0 0 5px 2px #fff44b;
+}
+
+.player-details .card.yellow-cards .card-body h4 {
+  -webkit-text-shadow: 0 0 3px #fff44b;
+  -moz-text-shadow: 0 0 3px #fff44b;
+  -o-text-shadow: 0 0 3px #fff44b;
+  text-shadow: 0 0 3px #fff44b;
+  margin: 10px 0;
+}
+
+.player-details .card.yellow-cards .card-body p {
+  font-size: 25px;
+  margin-bottom: 0;
+  -webkit-text-shadow: 0 0 3px #fff44b;
+  -moz-text-shadow: 0 0 3px #fff44b;
+  -o-text-shadow: 0 0 3px #fff44b;
+  text-shadow: 0 0 3px #fff44b;
+}
+
+.player-details .card.red-cards {
+  border: 1px solid #e53d3d;
+  color: #e53d3d;
+  -webkit-box-shadow: 0 0 5px 2px #e53d3d;
+  -o-box-shadow: 0 0 5px 2px #e53d3d;
+  box-shadow: 0 0 5px 2px #e53d3d;
+}
+
+.player-details .card.red-cards .card-body h4 {
+  -webkit-text-shadow: 0 0 3px #e53d3d;
+  -moz-text-shadow: 0 0 3px #e53d3d;
+  -o-text-shadow: 0 0 3px #e53d3d;
+  text-shadow: 0 0 3px #e53d3d;
+  margin: 10px 0;
+}
+
+.player-details .card.red-cards .card-body p {
+  font-size: 25px;
+  margin-bottom: 0;
+  -webkit-text-shadow: 0 0 3px #e53d3d;
+  -moz-text-shadow: 0 0 3px #e53d3d;
+  -o-text-shadow: 0 0 3px #e53d3d;
+  text-shadow: 0 0 3px #e53d3d;
 }
 
 .footer {
