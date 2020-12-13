@@ -88,20 +88,20 @@
                   <h4 class="text-right custom-title"> بطولات الأندية </h4>
                   <div class="row">
                     <div class="col-6">
-                      <a class="dropdown-item" href="#">الدورى المصرى  </a>
-                      <a class="dropdown-item" href="#">الدورى الإنجليزي  </a>
-                      <a class="dropdown-item" href="#">الدورى الاسبانى  </a>
-                      <a class="dropdown-item" href="#">الدورى الألمانى  </a>
-                      <a class="dropdown-item" href="#">الدورى الفرنسي  </a>
-                      <a class="dropdown-item" href="#">الدورى الإيطالى  </a>
+                      <a class="dropdown-item" href="competition.php">الدورى المصرى  </a>
+                      <a class="dropdown-item" href="competition.php">الدورى الإنجليزي  </a>
+                      <a class="dropdown-item" href="competition.php">الدورى الاسبانى  </a>
+                      <a class="dropdown-item" href="competition.php">الدورى الألمانى  </a>
+                      <a class="dropdown-item" href="competition.php">الدورى الفرنسي  </a>
+                      <a class="dropdown-item" href="competition.php">الدورى الإيطالى  </a>
                     </div>
 
                     <div class="col-6">
-                      <a class="dropdown-item" href="#">  كأس العالم للأندية </a>
-                      <a class="dropdown-item" href="#">دورى ابطال اوروبا </a>
-                      <a class="dropdown-item" href="#"> الدورى الأوروبي  </a>
-                      <a class="dropdown-item" href="#"> دورى ابطال افريقيا </a>
-                      <a class="dropdown-item" href="#">   كأس الكونفدرالية </a>
+                      <a class="dropdown-item" href="competition.php">  كأس العالم للأندية </a>
+                      <a class="dropdown-item" href="competition.php">دورى ابطال اوروبا </a>
+                      <a class="dropdown-item" href="competition.php"> الدورى الأوروبي  </a>
+                      <a class="dropdown-item" href="competition.php"> دورى ابطال افريقيا </a>
+                      <a class="dropdown-item" href="competition.php">   كأس الكونفدرالية </a>
                     </div>
                   </div>
                 </div>

@@ -54,17 +54,17 @@ $(document).ready(function() {
     rtl: true,
     loop: false,
     autoplay: false,
-    margin: 30,
+    margin: 18,
     nav: true,
     dots: false,
     responsiveClass: true,
     responsive: {
       0: {
-        items: 6,
+        items: 4,
         nav: true,
       },
       800: {
-        items: 6,
+        items: 1,
         nav: true,
       },
       1200: {
@@ -116,8 +116,8 @@ $(document).ready(function() {
   // END:: ADJUSTING TABS ACTIVE CLASS
 
   // START:: MIX IT UP
-  var mixer = mixitup('#mixer-container');
-  var mixer = mixitup('.container');
+  // var mixer = mixitup('#mixer-container');
+  // var mixer = mixitup('.container');
 
   // $(function(){
   //   var $catSelect = $('#filter-cat'),
