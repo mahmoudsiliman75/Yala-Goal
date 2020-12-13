@@ -1,5 +1,24 @@
 $(document).ready(function() {
 
+  // START:: INTRO ADVERTISING
+  $('.add-container').css('display' , 'none');
+
+  setTimeout(function () {
+    $('.add-container').fadeIn(1000);
+    $('body').css('overflow' , 'hidden');
+  } , 3000);
+
+  setTimeout(function () {
+    $('.add-container').fadeOut(500);
+    $('body').css('overflow' , 'auto');
+  } , 10000);
+  
+  $('.add-container .intro-add span').on('click' , function() {
+    $('.add-container').fadeOut(500);
+    $('body').css('overflow' , 'auto');
+  });
+  // END:: INTRO ADVERTISING 
+
   // START:: SEARCH AREA CONTROLERS
   $("#search-area").css("display", "none");
 

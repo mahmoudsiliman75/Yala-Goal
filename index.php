@@ -605,14 +605,14 @@
 			<div class="col-12 col-lg-7" style="height: 100%;">
 
 				<div class="row justify-content-between" style="height: 47.5%; margin-bottom: 1%;">
-					<div class="news-img-container col-12 col-lg-6" style="max-height: 162px; min-height: 162px;">
+					<div class="news-img-container col-12 col-lg-6 mb-2 mb-lg-0" style="max-height: 162px; min-height: 162px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
 						<img src="imgs/news/news1.jpg" alt="">
 					</div>
 
-					<div class="news-img-container col-12 col-lg-6" style="max-height: 162px; min-height: 162px;">
+					<div class="news-img-container col-12 col-lg-6 mb-2 mb-lg-0" style="max-height: 162px; min-height: 162px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
@@ -621,14 +621,14 @@
 				</div>
 
 				<div class="row justify-content-between" style="height: 47.5%;">
-					<div class="news-img-container col-12 col-lg-6" style="max-height: 162px; min-height: 162px;">
+					<div class="news-img-container col-12 col-lg-6 mb-2 mb-lg-0" style="max-height: 162px; min-height: 162px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
 						<img src="imgs/news/news3.jpg" alt="">
 					</div>
 
-					<div class="news-img-container col-12 col-lg-6" style="max-height: 162px; min-height: 162px;">
+					<div class="news-img-container col-12 col-lg-6 mb-2 mb-lg-0" style="max-height: 162px; min-height: 162px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
@@ -638,7 +638,7 @@
 
 			</div>
 
-			<div class="news-img-container col-12 col-lg-5" style="max-height: 330px; min-height: 330px;">
+			<div class="news-img-container col-12 col-lg-5 mb-2 mb-lg-0" style="max-height: 330px; min-height: 330px;">
 				<div class="news-overlay"> 
 					<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 				</div>
@@ -649,7 +649,7 @@
 
 		<div class="row justify-content-between mb-2">
 
-			<div class="news-img-container col-12 col-lg-5" style="max-height: 330px; min-height: 330px;">
+			<div class="news-img-container col-12 col-lg-5 mb-2 mb-lg-0" style="max-height: 330px; min-height: 330px;">
 				<div class="news-overlay"> 
 					<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 				</div>
@@ -659,14 +659,14 @@
 			<div class="col-12 col-lg-7" style="height: 100%;">
 
 				<div class="row justify-content-between" style="height: 47.5%; margin-bottom: 1%;">
-					<div class="news-img-container col-12 col-lg-6" style="max-height: 162px; min-height: 162px;">
+					<div class="news-img-container col-12 col-lg-6 mb-2 mb-lg-0" style="max-height: 162px; min-height: 162px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
 						<img src="imgs/news/news1.jpg" alt="">
 					</div>
 
-					<div class="news-img-container col-12 col-lg-6" style="max-height: 162px; min-height: 162px;">
+					<div class="news-img-container col-12 col-lg-6 mb-2 mb-lg-0" style="max-height: 162px; min-height: 162px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
@@ -675,14 +675,14 @@
 				</div>
 
 				<div class="row justify-content-between" style="height: 47.5%;">
-					<div class="news-img-container col-12 col-lg-6" style="max-height: 162px; min-height: 162px;">
+					<div class="news-img-container col-12 col-lg-6 mb-2 mb-lg-0" style="max-height: 162px; min-height: 162px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>
 						<img src="imgs/news/news4.jpg" alt="">
 					</div>
 
-					<div class="news-img-container col-12 col-lg-6" style="max-height: 162px; min-height: 162px;">
+					<div class="news-img-container col-12 col-lg-6 mb-2 mb-lg-0" style="max-height: 162px; min-height: 162px;">
 						<div class="news-overlay"> 
 							<a href="#"> لوريم ايبسوم: دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت.  </a> 
 						</div>

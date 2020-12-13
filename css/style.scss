@@ -93,6 +93,35 @@ html {
 }
 // END:: GLOBAL STYLES
 
+// START:: INTRO ADVERTISING
+.add-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999 !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .intro-add {
+    width: 70%;
+    height: 80%;
+    background: url('../imgs/intro.png');
+    background-size: cover;
+    span {
+      position: relative;
+      top: 15px;
+      left: 20px;
+      font-size: 30px;
+      color: #555;
+      cursor: pointer;
+    }
+  }
+}
+// END:: INTRO ADVERTISING
+
 // START:: NAV BAR STYLES
 .navbar {
   @include boxShadow(0, 0, 5px, 3px, #222);
@@ -1593,7 +1622,6 @@ html {
       }
       .navbar-social {
         order: -1;
-        // margin-left: auto !important;
         margin-right: 0 !important;
       }
     }

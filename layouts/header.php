@@ -59,10 +59,6 @@
       <img src="imgs/logo.png" height="50px" alt="موقع يلا جول الرياضى">
     </a>
 
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
-
     <div id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
 
@@ -185,3 +181,11 @@
 </div>
 
 <!-- END:: NAV BAR -->
+
+<!-- START:: INTRO ADVERTISING -->
+<div class="add-container">
+  <div class="intro-add">
+    <span> <i class="las la-times"></i> </span>
+  </div>  
+</div>
+<!-- END:: INTRO ADVERTISING -->
