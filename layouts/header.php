@@ -29,6 +29,14 @@
   <link rel=stylesheet href="css/lightbox.min.css">
   <!-- END:: INCLUDING LIGHT BOX CSS -->
 
+  <!-- START:: INCLUDING DATEPICKER CSS -->
+  <link rel=stylesheet href="css/datepicker.min.css">
+  <!-- END:: INCLUDING DATEPICKER CSS -->
+
+  <!-- START:: INCLUDING SELECT 2 STYLES -->
+  <link rel=stylesheet href="css/select2.min.css">
+  <!-- END:: INCLUDING SELECT 2 STYLES -->
+
   <!-- START:: INCLUDING MAIN STYLES -->
   <link rel="stylesheet" href="css/style.css">
   <!-- END:: INCLUDING MAIN STYLES -->
@@ -62,7 +70,7 @@
           <a class="nav-link" href="index.php">الرئيسية <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">المباريات</a>
+          <a class="nav-link" href="matches.php">المباريات</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="news.php">الاخبار</a>

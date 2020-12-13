@@ -271,7 +271,7 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  height: calc(90vh - 62px);
+  height: calc(525px - 62px);
   overflow: hidden;
   line-height: 0;
   background: #444 url("../imgs/playground.jpg");
@@ -1059,6 +1059,117 @@ html {
   }
 }
 // END:: PLAYER DETAILS PAGE STYLES 
+
+// START:: MATCHES PAGE STYLES
+.filters {
+  button {
+    border: none;
+    background-color: transparent;
+    color: $mainColor;
+    font-size: 40px;
+    display: inline-block;
+  }
+  .js-example-basic-single {
+    width: 30%;
+    margin: 5px;
+    .select2-selection__rendered {
+    padding: 5px;
+    color: $mainColor !important;
+    }
+    &:focus {
+      outline-color: none !important;
+    }
+  }
+}
+
+.matches-table {
+  min-height: 600px;
+  padding: $sectionPadding;
+  .nav-pills {
+    .owl-stage-outer {
+      .owl-stage {
+        .owl-item {
+          .nav-link {
+            &.active {
+              border-radius: 0;
+              background-color: $mainColor;
+            }
+          }
+        }
+      }
+    }
+    position: relative;
+    z-index: 10;
+    .owl-nav {
+      z-index: -1;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      margin-top: 0;
+      button {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        color: $mainColor;
+        font-size: 40px;
+        margin: 5px -35px;
+        &:hover {
+          background: transparent;
+          color: $mainColor;
+        }
+      }
+    }
+  }
+  .matches-table-content {
+    .tab-pane {
+      h2 {
+        margin-top: 70px;
+        color: $mainColor;
+        @include textShadow(0, 0, 3px, $mainColor);
+      }
+      .team-match-card {
+        background-color: #f1f1f1;
+        border-radius: 0;
+        .card-body {
+          h6 {
+            color: $mainColor;
+            font-weight: bold;
+          }
+          p {
+            color: $secondaryColor;
+            margin-bottom: 0;
+            font-size: 15px;
+            text-align: center;
+          }
+          .status {
+            background-color: $mainColor;
+            color: #fff;
+            border-radius: 10px;
+            margin: 13px 0;
+            font-size: 15px;
+            padding: 5px 8px;
+          }
+          .date {
+            margin: 13px 0;
+            font-size: 15px;
+            color: #777;
+          }
+          .playground {
+            font-size: 15px;
+            color: #777;
+            i {
+              color: $mainColor;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: MATCHES PAGE STYLES
 
 // START:: FOOTER STYLES
 .footer {

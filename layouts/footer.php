@@ -27,7 +27,7 @@
   <!-- END:: INCLUDING FONT AWESOME SCRIPTS -->
 
   <!-- START:: MIX IT UP SCRIPTS -->
-  <script src="js/mixitup.min.js"></script>
+  <!-- <script src="js/mixitup.min.js"></script> -->
   <!-- END:: MIX IT UP SCRIPTS -->
 
   <!-- START:: INCLUDING LIGHT BOX SCRIPTS -->
@@ -37,6 +37,14 @@
   <!-- START:: INCLUDING MAIN SCRIPT -->
   <script src="js/main.js"></script>
   <!-- END:: INCLUDING MAIN SCRIPT -->
+
+  <!-- START:: INCLUDING DATEPICKER SCRIPTS -->
+  <script src="js/datepicker.min.js"></script>
+  <!-- END:: INCLUDING DATEPICKER SCRIPTS -->
+
+  <!-- START:: SELECT 2 SCRIPTS -->
+  <script src="js/select2.min.js"></script>
+  <!-- END:: SELECT 2 SCRIPTS -->
 
   <!-- END:: INCLUDING SCRIPTS -->
 </body>

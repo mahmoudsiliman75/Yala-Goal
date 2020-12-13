@@ -254,7 +254,7 @@
 </div>
 <!-- END:: HOME MATCHES TABLE -->
 
-<!-- START:: TEAMS SKIDER SECTION -->
+<!-- START:: TEAMS SLIDER SECTION -->
 <div class="teams-section">
 	<div class="container d-flex justify-content-center">
 		<!-- START:: TEAMS SLIDER -->
