@@ -484,7 +484,8 @@ html {
       border-bottom: none;
       position: relative;
       top: 30px;
-      right: 80px;
+      left: 50%;
+      transform: translateX(-50%);
       .nav-item {
         .nav-link {
           padding: 17px;
@@ -541,7 +542,7 @@ html {
         margin-bottom: 0;
         &.competition-name {
           color: $mainColor;
-          font-size: 0.7rem;
+          font-size: 0.57rem;
           font-weight: bold;
         }
         &.match-result {
@@ -1596,6 +1597,7 @@ html {
         justify-content: space-between;
         li {
           margin-left: 10px;
+          font-size: 12px;
         }
       }
       .navbar-social {
@@ -1616,7 +1618,7 @@ html {
         flex-direction: row;
         justify-content: space-between;
         li {
-          margin-left: 20px;
+          margin-left: 10px;
           margin-top: 15px;
         }
       }

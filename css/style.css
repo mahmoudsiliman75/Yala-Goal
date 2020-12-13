@@ -565,7 +565,9 @@ html body::-webkit-scrollbar-thumb {
   border-bottom: none;
   position: relative;
   top: 30px;
-  right: 80px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .small-matches-box .overlay .nav-tabs .nav-item .nav-link {
@@ -637,7 +639,7 @@ html body::-webkit-scrollbar-thumb {
 
 .small-matches-box .overlay .match-card p.competition-name {
   color: #1983ca;
-  font-size: 0.7rem;
+  font-size: 0.57rem;
   font-weight: bold;
 }
 
@@ -1837,6 +1839,7 @@ html body::-webkit-scrollbar-thumb {
   }
   .navbar .container .navbar-nav li {
     margin-left: 10px;
+    font-size: 12px;
   }
   .navbar .container .navbar-social {
     -webkit-box-ordinal-group: 0;
@@ -1870,7 +1873,7 @@ html body::-webkit-scrollbar-thumb {
             justify-content: space-between;
   }
   .navbar .container .navbar-nav li {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 15px;
   }
   .navbar .container .navbar-social {
